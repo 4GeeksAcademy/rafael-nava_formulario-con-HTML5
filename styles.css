@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.todo {
+    position: absolute;
+    top: 10%;
+    margin-left: 25%;
+    
+  }
+
+
+
+#expirationdatem, #expirationdatea {
+    width: 40%;
+    display: inline-block
+}
+
+
+
+.arriba, .abajo {
+    background: lightgrey;
+    border: 1px gray;
+}
+
+.abajo {
+    display: flex;
+    justify-content: end;
+    padding: 1% 2% 1% 1%;
+}
+
+.alert p {
+    background: rgba(255, 104, 104, 0.391);
+    border-radius: 0.25rem;
+    padding: 1%;
+
+}
+
+.abajo button {
+    margin-left: 1%;
+}
+
+.weaccept p {
+    margin-top: 3px;
+    margin-bottom: 8px;
+}
+
+.todo {
+    width: 700px;
+    border: 1px solid gray;
+    border-radius: 0.25rem;
+}
+
+
+.marcastarj2 label {
+    width: auto;
+    padding: 3% 0% 3% 0%;
+    color: white;
+    margin: none;
+}
+
+.marcastarj2 {
+    border-radius: 0.25rem;
+    background: grey;
+    margin-left: 3%;
+
+}
+
+#exampleFormControlTextarea1 {
+    height: 120px;
+
+}
+
