@@ -4,6 +4,14 @@ body {
 }
 
 
+div {box-sizing: border-box;}
+div {margin: 0;}
+
+h2 {
+    text-align: start;
+    margin-left: 5px;
+}
+
 .todo {
     position: absolute;
     top: 10%;
@@ -34,7 +42,8 @@ body {
 .alert p {
     background: rgba(255, 104, 104, 0.391);
     border-radius: 0.25rem;
-    padding: 1%;
+    padding: 1% 1% 1% 1%;
+    margin-bottom: 0;
 
 }
 
@@ -58,13 +67,13 @@ body {
     width: auto;
     padding: 3% 0% 3% 0%;
     color: white;
-    margin: none;
+    margin: 0;
 }
 
 .marcastarj2 {
     border-radius: 0.25rem;
     background: grey;
-    margin-left: 3%;
+    margin-left: 12px;
 
 }
 
@@ -72,4 +81,3 @@ body {
     height: 120px;
 
 }
-
